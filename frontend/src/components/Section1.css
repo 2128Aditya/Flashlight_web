@@ -1,0 +1,33 @@
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    min-height: 100vh;
+    padding: 60px 100px;
+    gap: 60px;
+  }
+  
+  .section1-left img {
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .section1-right {
+    flex: 1;
+  }
+  
+  .section1-right h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* nice elegant font */
+  }
+  
+  .section1-right p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif; /* clean modern font */
+  }
+  
